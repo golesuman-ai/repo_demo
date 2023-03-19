@@ -3,7 +3,7 @@ import pytest
 def add(x, y):
   return x + y
 
-@pytest.mark.paramaterize("a, b, expected", 
+@pytest.mark.parametrize("a, b, expected", 
                           [(3, 5, 8), 
                            (2, 7, 9)
                           ])
