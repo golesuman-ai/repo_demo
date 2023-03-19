@@ -37,7 +37,7 @@ jobs:
     - name : black formatting
       run: | 
         black test.py
-        cat tests.py
+        cat test.py
     - name: Test with pytest
       run: |
         pytest test.py
